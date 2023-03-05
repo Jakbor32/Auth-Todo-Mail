@@ -1,8 +1,7 @@
-import Login from "./components/Login";
-import SignUp from "./components/SignUp";
-
 import CallbackPage from "./pages/CallbackPage";
 import { useAuth0 } from "@auth0/auth0-react";
+import Home from "./pages/Home";
+import TodoList from "./components/TodoList";
 import ContactForm from "./components/ContactForm";
 import { Route, Routes } from "react-router-dom";
 
@@ -16,15 +15,13 @@ function App() {
           path="/"
           element={
             <>
-              <div className="flex flex-col justify-center h-screen items-center gap-3">
-                <Login />
-                <SignUp />
-              </div>
+              <Home />
             </>
           }
         />
         {isAuthenticated && (
           <>
+            <Route path="/todolist" element={<TodoList />} />
             <Route path="/contactform" element={<ContactForm />} />
             <Route path="*" element={<CallbackPage />} />
           </>
