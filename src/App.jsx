@@ -4,7 +4,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { Route, Routes } from "react-router-dom";
 import ProfilePage from "./pages/ProfilePage";
 import ContactFormPage from "./pages/ContactFormPage";
-import TodoListPage from "./pages/TodolistPage";
+import TodoListPage from "./pages/TodoListPage";
 
 function App() {
   const { isAuthenticated } = useAuth0();
