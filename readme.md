@@ -51,3 +51,18 @@ https://auth-todo-mail.vercel.app/
 * Profile - a page with user profile data such as name, surname, email, and country.
 * Callback page - a 404 page that appears when the user enters the wrong page address.
 * Home - a page where login or registration is located, which redirects to Auth0.
+
+
+### Mobile presentation
+
+https://user-images.githubusercontent.com/84430211/223558338-d6c35551-5f97-45d4-b9ea-818d707a3d2c.mp4
+
+
+### Laptop presentation
+
+
+https://user-images.githubusercontent.com/84430211/223558528-1f922176-11c5-49f4-8da8-5d239b1cdf23.mp4
+
+
+
+
